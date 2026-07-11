@@ -19,7 +19,7 @@ Make sure everyone who receives a copy of any part of this software from you, wi
 
 ## Commercial Licensing
 
-Commercial use of this software requires a separate commercial license agreement with the contributor.
+Commercial use of this software requires a separate commercial license agreement with the contributor(s).
 
 Commercial use includes, but is not limited to:
 
