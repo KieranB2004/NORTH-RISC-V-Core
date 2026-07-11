@@ -1,7 +1,7 @@
 # North Technology License (NTL)
 **Version 2.0**
 
-**Copyright © 2026 Contributor(s) listed in the Contributor List.**
+**Copyright © 2026 Contributor(s) listed in the Contributor List(CONTRIBUTORLIST.md file).**
 **Source Repository:** https://github.com/KieranB2004/RISC-V-Core
 
 ---
