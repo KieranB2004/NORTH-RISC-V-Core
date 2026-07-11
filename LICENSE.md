@@ -1,126 +1,231 @@
-# The Prosperity Public License
+# The NORTH Technology License v1.0 (NTL-1.0)
 
 **Contributor:** Kieran Brousseau
 
-**Source Code:** [https://github.com/KieranB2004/RISC-V-Core](https://github.com/KieranB2004/NORTH-RISC-V-Core.git)
+**Source Code:** https://github.com/KieranB2004/NORTH-RISC-V-Core.git
 
-## Purpose
+---
 
-This license allows you to use, copy, modify, and share this software for noncommercial purposes.
+# Purpose
 
-Commercial use of this software requires a separate commercial license agreement with the contributor.
+The NORTH Technology License is a source-available technology license designed to encourage research, education, experimentation, and personal development while preserving the contributor's ability to receive compensation from commercial exploitation of the software, hardware designs, implementations, and associated intellectual property.
 
-The purpose of this license is to allow research, education, experimentation, and personal development while preserving the contributor's ability to receive compensation for commercial exploitation of the software and any associated intellectual property.
+This license permits free noncommercial use of the licensed technology.
 
-## Agreement
+Commercial use requires a separate written commercial license agreement from the contributor.
 
-By using, copying, modifying, or distributing this software, you agree to all terms and conditions of this license.
+This license is not an open-source license as defined by the Open Source Initiative because commercial use rights are restricted.
 
-The permissions granted by this license are conditional upon compliance with these requirements.
+---
 
-## Notices
+# Agreement
 
-You must ensure that anyone who receives a copy of this software, whether modified or unmodified, also receives:
+By accessing, using, copying, modifying, distributing, or creating derivative works based on this technology, you agree to all terms and conditions of this license.
 
-* The complete text of this license.
-* The contributor attribution.
-* The original source code reference.
+The permissions granted by this license are conditional upon continued compliance with these requirements.
 
-## Noncommercial Use
+Any use outside the permissions explicitly granted by this license requires separate written authorization from the contributor.
 
-Noncommercial use is permitted.
+Violation of this license terminates the permissions granted under this license.
 
-Noncommercial use includes:
+---
 
-* Personal research and experimentation.
-* Academic research and education.
-* University coursework and student projects.
-* Hobby projects without commercial intent.
-* Public-interest research conducted without commercial exploitation.
+# Notices and Attribution
 
-## Commercial Use
+Any distribution of this technology, whether modified or unmodified, must include:
 
-Commercial use of this software is not permitted without a separate written commercial license agreement from the contributor.
+- A complete copy of this license.
+- Attribution to the contributor.
+- A reference to the original source repository.
+
+Modified versions must clearly indicate that modifications have been made.
+
+You may not remove copyright notices, attribution notices, or license information from copies of the technology.
+
+---
+
+# Permitted Noncommercial Use
+
+You may use, copy, modify, study, and distribute this technology for noncommercial purposes.
+
+Permitted noncommercial uses include:
+
+- Personal research and experimentation.
+- Academic research.
+- University coursework.
+- Educational projects.
+- Student projects.
+- Hobby projects without commercial intent.
+- Open research conducted without commercial exploitation.
+
+You may create and share modified versions of this technology for permitted noncommercial purposes, provided that all requirements of this license are followed.
+
+---
+
+# Commercial Use Restrictions
+
+Commercial use of this technology is prohibited unless you obtain a separate written commercial license agreement from the contributor.
 
 Commercial use includes, but is not limited to:
 
-* Incorporating this software into a commercial product or service.
-* Selling, licensing, or distributing products based on this software.
-* Using this software internally to provide commercial advantage or generate revenue.
-* Offering paid services, platforms, or solutions that rely on this software.
-* Using this software as part of a commercial research and development effort.
+- Incorporating this technology into a commercial product.
+- Selling, licensing, or distributing products or services based on this technology.
+- Using this technology internally to obtain commercial advantage.
+- Using this technology as part of commercial research and development.
+- Manufacturing hardware or semiconductor products based on this technology.
+- Providing paid services, platforms, or solutions relying on this technology.
+- Commercial deployment of systems incorporating this technology.
 
-The contributor may grant commercial licenses under separate terms, including:
+Commercial licensing agreements may include:
 
-* Licensing fees.
-* Royalty payments.
-* Attribution requirements.
-* Support agreements.
-* Patent licensing requirements.
-* Other negotiated commercial conditions.
+- Licensing fees.
+- Royalty payments.
+- Attribution requirements.
+- Support agreements.
+- Patent licensing requirements.
+- Other negotiated commercial conditions.
 
-## Patent Rights and Intellectual Property Protection
+The contributor retains full discretion regarding whether to grant commercial licenses and under what terms.
 
-The contributor retains all ownership rights to patents, patent applications, inventions, discoveries, and other intellectual property associated with this software.
+---
 
-This license does not transfer ownership of any intellectual property rights.
+# Copyright Ownership and License Grant
 
-For noncommercial purposes only, the contributor grants a limited, non-exclusive, worldwide, royalty-free license to use any contributor-owned patent claims that are necessarily required to use the software, provided that all other requirements of this license are satisfied.
+Copyright ownership of this technology remains with the contributor.
 
-No patent rights are granted for commercial use.
+Subject to compliance with this license, the contributor grants permission to:
 
-If the contributor has filed, owns, controls, or later obtains patent protection covering any technology, implementation, method, architecture, system, process, or invention incorporated into this software, commercial use of such technology requires a separate patent license agreement.
+- Use the technology.
+- Reproduce copies of the technology.
+- Modify the technology.
+- Distribute copies of the technology.
 
-Commercial users must obtain authorization from the contributor before:
+These permissions are limited to purposes allowed under this license.
 
-* Using patented technology contained within the software.
-* Manufacturing products based on patented implementations.
-* Providing commercial services using patented functionality.
+This license does not transfer copyright ownership.
 
-The contributor reserves the right to require compensation, including licensing fees, royalties, or other commercial terms, for any commercial use involving contributor-controlled patent rights.
+Any rights not expressly granted under this license remain reserved by the contributor.
 
-## Contributions Back
+---
 
-Contributions, improvements, bug fixes, or modifications provided to the contributor may be accepted under separate licensing terms.
+# Patent Rights and Intellectual Property Protection
 
-Submitting contributions does not grant commercial rights to this software or any associated patents.
+The contributor retains all ownership rights, title, and interest in intellectual property associated with this technology, including:
 
-## Defense
+- Patents.
+- Patent applications.
+- Inventions.
+- Discoveries.
+- Hardware architectures.
+- Processor designs.
+- Circuit designs.
+- Semiconductor implementations.
+- Software implementations.
+- Methods.
+- Algorithms.
+- Other related intellectual property.
 
-You may not bring a legal claim against another party alleging that this software, modified versions of this software, or combinations involving this software infringe a patent, except where necessary to enforce rights granted under this license.
+Nothing in this license transfers ownership of intellectual property rights.
 
-## Copyright
+For permitted noncommercial use only, the contributor grants a limited, non-exclusive, worldwide, royalty-free license to use contributor-controlled patent claims that are necessarily required to use the technology.
 
-The contributor grants permission to perform actions that would otherwise infringe copyright rights in this software, provided that use complies with this license.
+This patent license applies only while the technology is used in compliance with this license.
 
-Copyright ownership remains with the contributor.
+No commercial patent rights are granted under this license.
 
-## Patent Ownership
+Commercial users must obtain separate authorization from the contributor before:
 
-Any patents, patent applications, inventions, or patentable improvements created or owned by the contributor remain the exclusive property of the contributor.
+- Using contributor-owned patented technology commercially.
+- Manufacturing products based on patented implementations.
+- Providing commercial services using patented functionality.
+- Distributing commercial systems incorporating contributor-controlled intellectual property.
 
-Nothing in this license transfers ownership of patents or grants commercial patent rights.
+The contributor reserves the right to require compensation for commercial use of contributor-controlled intellectual property, including:
 
-## Reliability
+- Licensing fees.
+- Royalty payments.
+- Commercial agreements.
+- Other negotiated terms.
 
-The contributor cannot revoke permissions already granted under this license for uses that were compliant with the license at the time they occurred.
+---
 
-## Excuse
+# Contributions
 
-A violation of the Notices requirement may be excused if:
+Contributions, improvements, bug fixes, designs, or modifications submitted to the contributor do not automatically grant commercial rights to this technology.
+
+Unless otherwise agreed in writing:
+
+- Contributors retain ownership of their submitted contributions.
+- Contributions do not transfer patent ownership.
+- Contributions do not transfer copyright ownership.
+- Contributions do not grant commercial rights to the technology.
+
+Submitted contributions may be accepted under separate licensing terms.
+
+---
+
+# Patent Defense
+
+You may not initiate legal action against another party claiming that:
+
+- This technology infringes a patent.
+- Modified versions of this technology infringe a patent.
+- Combinations involving this technology infringe a patent.
+
+This restriction does not prevent legal action necessary to enforce rights granted under this license, including copyright, license, or ownership rights.
+
+---
+
+# Reliability of Granted Permissions
+
+The contributor cannot revoke permissions already granted for uses that were compliant with this license at the time those uses occurred.
+
+A later termination of this license does not invalidate previously compliant use.
+
+---
+
+# Notice Violation Cure Period
+
+A violation of attribution or notice requirements may be excused if:
 
 1. The violation was unintentional.
-2. The violating party takes reasonable steps to correct the violation.
-3. Correction occurs within thirty days of discovering the violation.
+2. The violating party corrects the violation within thirty (30) days after discovering the violation.
+3. Reasonable steps are taken to prevent future violations.
 
-## No Liability
+---
 
-To the maximum extent permitted by law, this software is provided "as is," without warranty or condition of any kind.
+# No Warranty
 
-The contributor shall not be liable for damages arising from the use, modification, distribution, or inability to use this software.
+This technology is provided "as is," without warranty or condition of any kind.
 
-## Commercial Licensing Contact
+To the maximum extent permitted by applicable law, the contributor disclaims all warranties, including:
+
+- Merchantability.
+- Fitness for a particular purpose.
+- Non-infringement.
+
+The contributor shall not be liable for damages arising from:
+
+- Use of the technology.
+- Modification of the technology.
+- Distribution of the technology.
+- Failure of the technology.
+- Inability to use the technology.
+
+---
+
+# Governing Law
+
+This license shall be governed by and interpreted according to the laws of Alberta, Canada.
+
+Any disputes relating to this license shall be resolved under applicable Canadian law.
+
+---
+
+# Commercial Licensing Contact
 
 For commercial licensing inquiries:
 
-Kieran Brousseau (kieranbrousseau@gmail.com)
+Kieran Brousseau
+
+kieranbrousseau@gmail.com
