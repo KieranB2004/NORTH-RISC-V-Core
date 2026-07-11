@@ -1,0 +1,11 @@
+# VS Code settings
+.vscode/
+
+# Verilator generated build files
+obj_dir/
+
+# Simulation waveform files
+*.vcd
+
+# macOS files
+.DS_Store
