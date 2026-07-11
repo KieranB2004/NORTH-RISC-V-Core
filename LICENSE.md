@@ -1,231 +1,376 @@
-# The NORTH Technology License v1.0 (NTL-1.0)
+# North Technology License (NTL)
 
-**Contributor:** Kieran Brousseau
+Version 1.0
 
-**Source Code:** https://github.com/KieranB2004/NORTH-RISC-V-Core.git
+Copyright © 2026 Kieran Brousseau
 
----
-
-# Purpose
-
-The NORTH Technology License is a source-available technology license designed to encourage research, education, experimentation, and personal development while preserving the contributor's ability to receive compensation from commercial exploitation of the software, hardware designs, implementations, and associated intellectual property.
-
-This license permits free noncommercial use of the licensed technology.
-
-Commercial use requires a separate written commercial license agreement from the contributor.
-
-This license is not an open-source license as defined by the Open Source Initiative because commercial use rights are restricted.
+Source Repository:
+https://github.com/KieranB2004/RISC-V-Core
 
 ---
 
-# Agreement
+# 1. Purpose
 
-By accessing, using, copying, modifying, distributing, or creating derivative works based on this technology, you agree to all terms and conditions of this license.
+The North Technology License ("NTL") governs the use, modification, distribution, and commercialization of software, hardware designs, and related engineering materials created by the Contributor.
 
-The permissions granted by this license are conditional upon continued compliance with these requirements.
-
-Any use outside the permissions explicitly granted by this license requires separate written authorization from the contributor.
-
-Violation of this license terminates the permissions granted under this license.
+This License is intended to permit educational, research, and non-commercial experimentation while protecting the Contributor's intellectual property rights and reserving commercial exploitation, manufacturing, fabrication, and patent rights.
 
 ---
 
-# Notices and Attribution
+# 2. Definitions
 
-Any distribution of this technology, whether modified or unmodified, must include:
+## 2.1 Contributor
 
-- A complete copy of this license.
-- Attribution to the contributor.
-- A reference to the original source repository.
+"Contributor" means Kieran Brousseau, the original creator and copyright holder of the Licensed Materials.
 
-Modified versions must clearly indicate that modifications have been made.
+## 2.2 Licensed Materials
 
-You may not remove copyright notices, attribution notices, or license information from copies of the technology.
+"Licensed Materials" means all materials distributed under this License, including but not limited to:
 
----
-
-# Permitted Noncommercial Use
-
-You may use, copy, modify, study, and distribute this technology for noncommercial purposes.
-
-Permitted noncommercial uses include:
-
-- Personal research and experimentation.
-- Academic research.
-- University coursework.
-- Educational projects.
-- Student projects.
-- Hobby projects without commercial intent.
-- Open research conducted without commercial exploitation.
-
-You may create and share modified versions of this technology for permitted noncommercial purposes, provided that all requirements of this license are followed.
-
----
-
-# Commercial Use Restrictions
-
-Commercial use of this technology is prohibited unless you obtain a separate written commercial license agreement from the contributor.
-
-Commercial use includes, but is not limited to:
-
-- Incorporating this technology into a commercial product.
-- Selling, licensing, or distributing products or services based on this technology.
-- Using this technology internally to obtain commercial advantage.
-- Using this technology as part of commercial research and development.
-- Manufacturing hardware or semiconductor products based on this technology.
-- Providing paid services, platforms, or solutions relying on this technology.
-- Commercial deployment of systems incorporating this technology.
-
-Commercial licensing agreements may include:
-
-- Licensing fees.
-- Royalty payments.
-- Attribution requirements.
-- Support agreements.
-- Patent licensing requirements.
-- Other negotiated commercial conditions.
-
-The contributor retains full discretion regarding whether to grant commercial licenses and under what terms.
-
----
-
-# Copyright Ownership and License Grant
-
-Copyright ownership of this technology remains with the contributor.
-
-Subject to compliance with this license, the contributor grants permission to:
-
-- Use the technology.
-- Reproduce copies of the technology.
-- Modify the technology.
-- Distribute copies of the technology.
-
-These permissions are limited to purposes allowed under this license.
-
-This license does not transfer copyright ownership.
-
-Any rights not expressly granted under this license remain reserved by the contributor.
-
----
-
-# Patent Rights and Intellectual Property Protection
-
-The contributor retains all ownership rights, title, and interest in intellectual property associated with this technology, including:
-
-- Patents.
-- Patent applications.
-- Inventions.
-- Discoveries.
+- Source code.
+- Object code.
+- Firmware.
+- Embedded software.
+- Hardware description language files.
+- Verilog files.
+- SystemVerilog files.
+- VHDL files.
+- Register-transfer level (RTL) designs.
+- Processor cores.
+- FPGA designs.
+- FPGA configuration files.
+- Bitstreams.
+- Simulation models.
+- Testbenches.
+- Verification environments.
 - Hardware architectures.
-- Processor designs.
 - Circuit designs.
-- Semiconductor implementations.
-- Software implementations.
+- Schematics.
+- PCB layouts.
+- Semiconductor designs.
+- Documentation.
+- Technical specifications.
+- Design files.
+- Research materials.
+- Supporting files.
+
+## 2.3 Derivative Works
+
+"Derivative Works" means any modification, adaptation, extension, improvement, translation, redesign, or implementation based upon the Licensed Materials.
+
+Derivative Works include:
+
+- Modified software.
+- Modified RTL.
+- Modified FPGA designs.
+- Modified processor architectures.
+- ASIC implementations.
+- PCB designs.
+- Hardware products.
+
+## 2.4 Non-Commercial Use
+
+"Non-Commercial Use" means use that does not directly or indirectly generate revenue, commercial advantage, or support a commercial product or service.
+
+Examples include:
+
+- Personal projects.
+- Educational projects.
+- Academic research.
+- Private experimentation.
+- Non-commercial prototypes.
+
+## 2.5 Commercial Use
+
+"Commercial Use" means any activity intended to generate revenue, commercial advantage, or support a commercial product or service.
+
+Examples include:
+
+- Selling products.
+- Providing paid services.
+- Manufacturing devices.
+- Incorporating the Licensed Materials into commercial systems.
+- Commercial FPGA deployment.
+- ASIC production.
+
+---
+
+# 3. Copyright Ownership
+
+The Licensed Materials remain the exclusive intellectual property of the Contributor.
+
+This License does not transfer ownership of any copyright, patent, trade secret, design right, or other intellectual property right.
+
+All rights not expressly granted by this License are reserved.
+
+---
+
+# 4. Copyright License Grant
+
+Subject to compliance with this License, the Contributor grants permission to:
+
+1. Access and view the Licensed Materials.
+2. Study and analyze the Licensed Materials.
+3. Modify the Licensed Materials for Non-Commercial Use.
+4. Create Non-Commercial Derivative Works.
+5. Share Licensed Materials and Derivative Works for Non-Commercial Use.
+
+This permission applies only to copyright-controlled activities.
+
+No patent, fabrication, manufacturing, or commercial rights are granted.
+
+---
+
+# 5. Hardware Design Rights
+
+The Licensed Materials may include hardware designs and engineering information.
+
+You may:
+
+- Study hardware architectures.
+- Simulate designs.
+- Modify RTL.
+- Create educational FPGA implementations.
+- Create private prototypes.
+
+You may not:
+
+- Manufacture commercial hardware.
+- Sell hardware based on the Licensed Materials.
+- Produce commercial FPGA products.
+- Create ASIC implementations.
+- Perform semiconductor fabrication.
+- Integrate designs into commercial products.
+
+without separate written authorization from the Contributor.
+
+---
+
+# 6. Fabrication Rights
+
+Fabrication rights are separate from copyright rights.
+
+Access to hardware designs does not grant permission to manufacture physical implementations.
+
+Fabrication includes:
+
+- ASIC tape-out.
+- Semiconductor manufacturing.
+- Wafer fabrication.
+- Chip production.
+- FPGA products intended for commercial distribution.
+- PCB manufacturing.
+- Production hardware devices.
+
+No fabrication rights are granted under this License.
+
+Any fabrication requires a separate written fabrication agreement with the Contributor.
+
+Unauthorized fabrication constitutes a material violation of this License.
+
+---
+
+# 7. Patent Rights
+
+Copyright permission does not grant patent permission.
+
+This License grants no:
+
+- Patent license.
+- Right to practice patented inventions.
+- Right to manufacture patented implementations.
+- Right to commercially exploit patented technology.
+
+If the Contributor owns or obtains patents relating to:
+
+- Hardware architectures.
+- Circuit designs.
+- Processor implementations.
+- Semiconductor structures.
 - Methods.
 - Algorithms.
-- Other related intellectual property.
+- Technical improvements.
 
-Nothing in this license transfers ownership of intellectual property rights.
+additional authorization is required before practicing those inventions.
 
-For permitted noncommercial use only, the contributor grants a limited, non-exclusive, worldwide, royalty-free license to use contributor-controlled patent claims that are necessarily required to use the technology.
-
-This patent license applies only while the technology is used in compliance with this license.
-
-No commercial patent rights are granted under this license.
-
-Commercial users must obtain separate authorization from the contributor before:
-
-- Using contributor-owned patented technology commercially.
-- Manufacturing products based on patented implementations.
-- Providing commercial services using patented functionality.
-- Distributing commercial systems incorporating contributor-controlled intellectual property.
-
-The contributor reserves the right to require compensation for commercial use of contributor-controlled intellectual property, including:
-
-- Licensing fees.
-- Royalty payments.
-- Commercial agreements.
-- Other negotiated terms.
+Commercial implementation of patented technology requires a separate patent license.
 
 ---
 
-# Contributions
+# 8. Commercial Licensing
 
-Contributions, improvements, bug fixes, designs, or modifications submitted to the contributor do not automatically grant commercial rights to this technology.
+Commercial use requires a separate written commercial license agreement.
 
-Unless otherwise agreed in writing:
+Commercial licensing may cover:
 
-- Contributors retain ownership of their submitted contributions.
-- Contributions do not transfer patent ownership.
-- Contributions do not transfer copyright ownership.
-- Contributions do not grant commercial rights to the technology.
+- Software products.
+- Hardware products.
+- FPGA products.
+- ASIC implementations.
+- Semiconductor manufacturing.
+- Embedded systems.
+- Commercial services.
 
-Submitted contributions may be accepted under separate licensing terms.
-
----
-
-# Patent Defense
-
-You may not initiate legal action against another party claiming that:
-
-- This technology infringes a patent.
-- Modified versions of this technology infringe a patent.
-- Combinations involving this technology infringe a patent.
-
-This restriction does not prevent legal action necessary to enforce rights granted under this license, including copyright, license, or ownership rights.
+The Contributor retains sole authority to grant commercial rights.
 
 ---
 
-# Reliability of Granted Permissions
+# 9. Attribution Requirements
 
-The contributor cannot revoke permissions already granted for uses that were compliant with this license at the time those uses occurred.
+Any permitted distribution or publication must include:
 
-A later termination of this license does not invalidate previously compliant use.
+1. Attribution to the Contributor.
+2. A copy of this License.
+3. Notice of significant modifications.
+
+Copyright notices must not be removed or altered.
+
+For hardware designs, attribution should remain included in:
+
+- Documentation.
+- Design repositories.
+- Source files where practical.
 
 ---
 
-# Notice Violation Cure Period
+# 10. Redistribution Restrictions
 
-A violation of attribution or notice requirements may be excused if:
+Redistribution is permitted only when:
 
-1. The violation was unintentional.
-2. The violating party corrects the violation within thirty (30) days after discovering the violation.
-3. Reasonable steps are taken to prevent future violations.
+1. This License is included.
+2. Attribution is preserved.
+3. No additional restrictions are imposed.
+4. The recipient receives the same limitations.
+
+Redistribution does not grant commercial, fabrication, or patent rights.
 
 ---
 
-# No Warranty
+# 11. Separation of Rights
 
-This technology is provided "as is," without warranty or condition of any kind.
+The rights controlled by this License are separate:
 
-To the maximum extent permitted by applicable law, the contributor disclaims all warranties, including:
+## Copyright Rights
 
-- Merchantability.
+Control:
+
+- Copying.
+- Modification.
+- Distribution.
+- Derivative works.
+
+## Patent Rights
+
+Control:
+
+- Practicing patented inventions.
+- Manufacturing patented implementations.
+- Commercial exploitation of patented technology.
+
+## Fabrication Rights
+
+Control:
+
+- Physical manufacturing.
+- Semiconductor production.
+- Hardware production.
+
+## Commercial Rights
+
+Control:
+
+- Revenue-generating use.
+- Product integration.
+- Commercial services.
+
+Granting one category of rights does not grant any other category.
+
+---
+
+# 12. Termination
+
+Any unauthorized use of the Licensed Materials terminates the permissions granted under this License.
+
+Unauthorized use includes:
+
+- Commercial use without permission.
+- Unauthorized fabrication.
+- Unauthorized manufacturing.
+- Unauthorized patent practice.
+- Removal of required attribution.
+- Distribution outside permitted conditions.
+
+Upon termination:
+
+1. All rights granted under this License immediately end.
+2. The violating party must stop using the Licensed Materials.
+3. The violating party must stop distributing the Licensed Materials.
+4. The violating party must stop manufacturing derived implementations.
+
+Termination does not limit any legal remedies available to the Contributor.
+
+---
+
+# 13. Legal Remedies
+
+Nothing in this License limits the Contributor's ability to seek available remedies under applicable law.
+
+The Contributor may pursue remedies including:
+
+- Injunctive relief.
+- Monetary damages.
+- Copyright remedies.
+- Patent remedies.
+- Contract remedies.
+
+Unauthorized use may constitute both a breach of this License agreement and infringement of intellectual property rights.
+
+---
+
+# 14. Disclaimer of Warranty
+
+The Licensed Materials are provided "AS IS".
+
+The Contributor provides no warranties regarding:
+
+- Accuracy.
+- Reliability.
+- Security.
+- Performance.
+- Hardware functionality.
+- Manufacturing suitability.
 - Fitness for a particular purpose.
-- Non-infringement.
-
-The contributor shall not be liable for damages arising from:
-
-- Use of the technology.
-- Modification of the technology.
-- Distribution of the technology.
-- Failure of the technology.
-- Inability to use the technology.
 
 ---
 
-# Governing Law
+# 15. Limitation of Liability
 
-This license shall be governed by and interpreted according to the laws of Alberta, Canada.
-
-Any disputes relating to this license shall be resolved under applicable Canadian law.
+To the maximum extent permitted by applicable law, the Contributor shall not be liable for damages resulting from use, modification, distribution, manufacturing, or inability to use the Licensed Materials.
 
 ---
 
-# Commercial Licensing Contact
+# 16. Governing Law and Jurisdiction
 
-For commercial licensing inquiries:
+This License shall be governed by and interpreted according to the laws of the Province of Alberta and the applicable federal laws of Canada.
 
-Kieran Brousseau
+The parties agree that disputes relating to this License shall be resolved in the courts located in Alberta, Canada, unless otherwise required by applicable law.
 
-kieranbrousseau@gmail.com
+---
+
+# 17. Severability
+
+If any provision of this License is found invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+---
+
+# 18. Entire Agreement
+
+This License constitutes the complete agreement regarding the Licensed Materials and supersedes prior understandings regarding their use.
+
+Any additional permissions or exceptions must be provided in writing by the Contributor.
+
+---
+
+# 19. Acceptance
+
+By accessing, using, modifying, distributing, or creating derivative works from the Licensed Materials, you acknowledge that you have read, understood, and agreed to the terms of this License.
