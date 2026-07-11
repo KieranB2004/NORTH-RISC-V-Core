@@ -1,6 +1,6 @@
 # North Technology License (NTL)
 
-Version 1.0
+Version 1.1
 
 Copyright © 2026 Contributor(s) listed in the Contributor List.
 
@@ -39,6 +39,8 @@ Unless otherwise specified, the original creator of the Licensed Materials is th
 
 The Primary License Administrator does not automatically obtain ownership of contributions made by other Contributor(s).
 
+To the extent authorized by Contributor(s) under Section 3.1 (Contribution License), the Primary License Administrator may grant Commercial Licenses under Section 8 and Fabrication authorizations under Section 6 on behalf of the Contributor(s) whose contributions are included in the Licensed Materials. The Primary License Administrator is also responsible for publishing revised versions of this License under Section 18.1.
+
 ---
 
 ## 2.3 Contributor List
@@ -65,7 +67,7 @@ Contributor List:
   Contribution Description
   Copyright © Year
 
-Adding a person to the Contributor List does not transfer ownership between Contributor(s).
+Adding a person to the Contributor List does not transfer ownership between Contributor(s). Contributions are additionally subject to the Contribution License in Section 3.1.
 
 ---
 
@@ -129,11 +131,18 @@ Derivative Works include:
 - Hardware products.
 - Software derived from the Licensed Materials.
 
+Any Derivative Work that is shared or distributed must be licensed under this same License, as set out in Section 4.
+
 ---
 
 ## 2.6 Non-Commercial Use
 
 "Non-Commercial Use" means use that does not directly or indirectly generate revenue, commercial advantage, or support a commercial product or service.
+
+For clarity:
+
+- Use by an individual, academic institution, or research organization remains Non-Commercial Use regardless of the source of funding, including commercially sponsored research grants, provided the Licensed Materials themselves are not sold, licensed for a fee, or incorporated into a commercial product or service.
+- Sharing or distributing Licensed Materials or Derivative Works at no charge, or for reimbursement of direct, documented costs only (such as splitting the cost of components or fabrication among hobbyists), with no profit margin retained, is Non-Commercial Use.
 
 Examples include:
 
@@ -147,16 +156,22 @@ Examples include:
 
 ## 2.7 Commercial Use
 
-"Commercial Use" means any activity involving financial gain, commercial advantage, commercial deployment, or support of a commercial product or service.
+"Commercial Use" means any activity involving financial gain, commercial advantage, commercial deployment, or support of a commercial product or service, other than activity described as Non-Commercial Use under Section 2.6.
 
 Examples include:
 
-- Selling products.
-- Manufacturing devices.
+- Selling products for profit.
+- Manufacturing devices for sale.
 - Providing paid services.
 - Integrating Licensed Materials into commercial systems.
 - Commercial FPGA deployment.
-- ASIC production.
+- ASIC production for sale or commercial deployment.
+
+---
+
+## 2.8 Licensed Patent Claims
+
+"Licensed Patent Claims" means patent claims that a Contributor owns or has the right to license, and that would necessarily be infringed by the Non-Commercial Use of that Contributor's contribution to the Licensed Materials, either alone or in combination with the rest of the Licensed Materials.
 
 ---
 
@@ -176,21 +191,31 @@ This License does not transfer:
 
 All rights not expressly granted are reserved.
 
+## 3.1 Contribution License
+
+By submitting a contribution to the Licensed Materials, whether by pull request, patch, or other means, a Contributor:
+
+1. Grants to the Primary License Administrator and to all recipients of the Licensed Materials a perpetual, worldwide, non-exclusive, royalty-free copyright and patent license, to the extent of that Contributor's Licensed Patent Claims, to use, reproduce, modify, and distribute the contribution as part of the Licensed Materials under this License.
+2. Grants to the Primary License Administrator the right to include the contribution within any Commercial License or Fabrication authorization granted under Section 8 or Section 6, on the same basis as the Primary License Administrator's own original contributions.
+
+This grant does not transfer ownership of the contribution, and the Contributor retains all rights under Section 3 subject to this grant. A Contributor may decline this grant for a specific contribution by stating so in writing at the time of submission. The Primary License Administrator may decline to accept a contribution offered subject to such a declination.
+
 ---
 
 # 4. Copyright License Grant
 
 Subject to compliance with this License, Contributor(s) grant permission to:
 
-1. Access and study the Licensed Materials.
+1. Access, study, and use the Licensed Materials for Non-Commercial Use, including executing software and instantiating hardware designs in simulation or on programmable hardware.
 2. View and analyze the Licensed Materials.
 3. Modify the Licensed Materials for Non-Commercial Use.
 4. Create Non-Commercial Derivative Works.
 5. Share Licensed Materials and Derivative Works for Non-Commercial Use.
+6. License any Derivative Work that is shared or distributed under this same License.
 
 These permissions apply only to copyright-controlled activities.
 
-No patent rights, fabrication rights, manufacturing rights, or commercial rights are granted.
+No fabrication rights or commercial rights are granted. Patent rights are addressed separately in Section 7.
 
 ---
 
@@ -205,6 +230,8 @@ Permitted non-commercial activities include:
 - Modifying RTL.
 - Creating educational FPGA implementations.
 - Creating private prototypes.
+
+Patent rights for these activities are addressed in Section 7 (Patent Rights).
 
 The following activities require separate written authorization from the Contributor(s):
 
@@ -233,9 +260,9 @@ Fabrication includes:
 - PCB manufacturing.
 - Hardware production.
 
-No fabrication rights are granted under this License.
+No fabrication rights are granted under this License. Any fabrication requires a separate written fabrication agreement with the Contributor(s), regardless of the scale, purpose, or commercial status of the fabrication, including single-unit prototypes and shared multi-project-wafer ("shuttle") fabrication runs undertaken for personal, educational, or research purposes.
 
-Any fabrication requires a separate written fabrication agreement with the Contributor(s).
+Contributor(s) may, at their discretion, offer a simplified Non-Commercial Fabrication Authorization for small-scale, personal, or educational fabrication requests. Such an authorization must still be obtained in writing before fabrication occurs, but need not take the form of a full commercial fabrication agreement.
 
 Unauthorized fabrication constitutes a material violation of this License.
 
@@ -243,14 +270,25 @@ Unauthorized fabrication constitutes a material violation of this License.
 
 # 7. Patent Rights
 
-Copyright permission does not grant patent permission.
+Copyright permission alone does not grant patent permission for all purposes.
 
-This License grants no:
+## 7.1 Limited Patent License for Non-Commercial Use
 
-- Patent license.
-- Right to practice patented inventions.
-- Right to manufacture patented implementations.
-- Right to commercially exploit patented technology.
+Subject to compliance with this License, each Contributor grants a worldwide, royalty-free, non-exclusive patent license under that Contributor's Licensed Patent Claims to make, use, and modify the Licensed Materials, solely for Non-Commercial Use as permitted under Section 4 and Section 5.
+
+This patent license does not extend to Commercial Use, to Fabrication requiring authorization under Section 6, or to any activity beyond the copyright permissions granted in Section 4 and Section 5.
+
+---
+
+## 7.2 Patent Defense
+
+If any party brings a patent infringement claim, including a cross-claim or counterclaim, alleging that the Licensed Materials infringe a patent, that party's patent license under Section 7.1 terminates immediately.
+
+---
+
+## 7.3 Commercial and Fabrication Patent Rights Reserved
+
+No patent license is granted for Commercial Use, Fabrication, or any activity beyond the Non-Commercial Use covered by Section 7.1.
 
 If any Contributor(s) own or obtain patents relating to:
 
@@ -261,15 +299,17 @@ If any Contributor(s) own or obtain patents relating to:
 - Algorithms.
 - Technical methods.
 
-additional authorization is required before practicing those inventions.
+additional authorization is required before practicing those inventions for Commercial Use or Fabrication.
 
-Commercial use of patented technology requires a separate patent license.
+Commercial use of patented technology requires a separate patent license under Section 8 (Commercial Licensing).
 
 ---
 
 # 8. Commercial Licensing
 
 Commercial use requires a separate written agreement with the Contributor(s).
+
+Where Licensed Materials include contributions subject to Section 3.1 (Contribution License), the Primary License Administrator may grant Commercial Licenses covering those contributions to the extent authorized under Section 3.1.
 
 Commercial licensing may include:
 
@@ -294,6 +334,8 @@ Any permitted distribution, publication, modification, or derivative work must:
 3. Include the Contributor List.
 4. Identify significant modifications.
 
+A modification is "significant" for this purpose if it materially changes the functionality, architecture, or behavior of the Licensed Materials, as distinct from formatting, minor bug fixes, or other cosmetic changes.
+
 Copyright notices and attribution information must not be removed or altered.
 
 ---
@@ -312,7 +354,7 @@ Redistribution does not grant:
 
 - Commercial rights.
 - Fabrication rights.
-- Patent rights.
+- Patent rights beyond Section 7.1.
 
 ---
 
@@ -359,9 +401,7 @@ Granting one category of rights does not grant another category.
 
 # 12. Termination
 
-Any unauthorized use of the Licensed Materials terminates the permissions granted under this License.
-
-Unauthorized use includes:
+Violations of this License include:
 
 - Commercial use without authorization.
 - Unauthorized fabrication.
@@ -369,6 +409,29 @@ Unauthorized use includes:
 - Unauthorized patent practice.
 - Removal of attribution.
 - Distribution outside permitted conditions.
+
+## 12.1 General Rule — Cure Period
+
+Except as provided in Section 12.2, a violation of this License terminates the violating party's rights only if:
+
+1. The Contributor(s) or Primary License Administrator give the violating party written notice describing the violation.
+2. The violating party does not cure the violation within thirty (30) days of that notice.
+
+A party who cures a violation within this period has their rights automatically reinstated. Repeating the same violation after a cure under this Section results in immediate and permanent termination.
+
+---
+
+## 12.2 Immediate Termination
+
+The following violations terminate all rights under this License immediately, without notice or a cure period:
+
+1. Unauthorized Fabrication.
+2. Unauthorized Commercial Use.
+3. Unauthorized practice of patents reserved under Section 7.3.
+
+---
+
+## 12.3 Effect of Termination
 
 Upon termination:
 
@@ -453,8 +516,12 @@ This License represents the complete agreement regarding the Licensed Materials.
 
 Any additional permissions, exceptions, or commercial rights must be granted through a written agreement signed by authorized representatives of the Contributor(s).
 
+## 18.1 Versioning
+
+The Primary License Administrator may publish revised versions of this License. Unless the Contributor(s) specify otherwise for particular Licensed Materials, Licensed Materials made available under a specific version of this License remain governed by that version and are not automatically upgraded to a later version. A Contributor may choose to release Licensed Materials under "this License or any later version," in which case a recipient may instead apply the terms of any later published version of the North Technology License.
+
 ---
 
 # 19. Acceptance
 
-By accessing, using, modifying, distributing, or creating derivative works from the Licensed Materials, you acknowledge that you have read, understood, and agreed to the terms of this License.
+The permissions granted in this License are conditioned on compliance with its terms. Passive access to, or viewing of, the Licensed Materials does not require acceptance of this License. However, modifying, distributing, sharing, or fabricating the Licensed Materials, or otherwise exercising any permission granted under Section 4, Section 5, or Section 7, is permitted only if you comply with this License, and doing so constitutes your acceptance of, and agreement to be bound by, its terms.
