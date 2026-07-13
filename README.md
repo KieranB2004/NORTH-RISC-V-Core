@@ -11,7 +11,7 @@
 
 ## Overview
 
-**NORTH RISC-V Core** is an open hardware project that aims to design a **completely original** 64-bit multicore RISC-V processor from first principles while remaining compatible with the RISC-V ISA specification.
+**NORTH RISC-V Core** is an open hardware project that aims to design a 64-bit multicore RISC-V processor from first principles while remaining compatible with the RISC-V ISA specification.
 
 Unlike many educational processor projects that modify existing cores, NORTH is designed from the ground up. Every major architectural component is implemented independently, including the pipeline, control logic, vector execution units, memory hierarchy, cache subsystem, and hardware accelerators.
 
