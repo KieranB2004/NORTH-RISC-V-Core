@@ -190,7 +190,6 @@ Formal verification may be introduced during later development.
 
 The project follows several core engineering principles.
 
-- Original RTL implementation
 - Modular architecture
 - Clean interfaces
 - Extensive documentation
