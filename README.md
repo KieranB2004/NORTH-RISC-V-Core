@@ -32,7 +32,7 @@ The long-term objective is to create a modern research platform suitable for:
 
 The project has several primary objectives:
 
-- Design an original RV64 processor implementation
+- Design a RV64 processor implementation
 - Support the RISC-V Vector Extension (RVV)
 - Implement a scalable multicore architecture
 - Develop custom hardware accelerators
