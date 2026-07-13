@@ -312,12 +312,12 @@ The project is expected to evolve significantly as the architecture matures.
 
 This project is licensed under the **North Technology License (NTL)**.
 
-See the `LICENSE` file for complete licensing information.
+See the `LICENSE.md` file for complete licensing information.
 
 ---
 
 # Acknowledgements
 
-This project builds upon the open RISC-V instruction set architecture while implementing an independent processor microarchitecture.
+This project builds upon the open RISC-V instruction set architecture and open source RISC-V projects(which **will be**/**are** referenced as required by their governing licenses) while implementing an independent processor microarchitecture.
 
 RISC-V is a registered trademark of RISC-V International.
