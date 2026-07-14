@@ -9,3 +9,7 @@ obj_dir/
 
 # macOS files
 .DS_Store
+
+.venv
+
+.xml
