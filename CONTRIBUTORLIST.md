@@ -1,6 +1,6 @@
 # Contributor List
 
-This file identifies the recognized Contributor(s) to the Licensed Materials as required by Section 2.3 of the North Technology License (NTL) Version 2.0.
+This file identifies the recognized Contributor(s) to the Licensed Materials as required by Section 2.3 of the North Technology License (NTL) Version 2.1.
 
 ### Important Notice for Contributors: Commercial Rights and Compensation
 By submitting a Pull Request, patch, or any other contribution to this repository, you acknowledge that your contribution is entirely voluntary. **Acceptance of your contribution into this repository does not entitle you to any financial compensation, royalties, equity, or a share of any revenue generated from the project.**
